@@ -1,7 +1,9 @@
 import React from "react";
+import ContactCard from "./components/ContactCard";
 
 const App = () => (
   <div className="App">
+    <ContactCard />
     <h1>Hello CodeSandbox</h1>
     <h2>Start editing to see some magic happen!</h2>
   </div>
