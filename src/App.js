@@ -1,5 +1,6 @@
 import React from "react";
 import ContactCard from "./components/ContactCard";
+import ContactCardPropsObject from "./components/ContactCardPropsObject";
 
 const App = () => (
   <div className="contacts">
@@ -13,6 +14,14 @@ const App = () => (
       imgUrl="http://placekitten.com/300/200"
       phone="(213) 334-2554"
       email="mr.mrwhis@meow.com"
+    />
+    <ContactCardPropsObject
+      contact={{
+        name: "Mr. Whisker",
+        imgUrl: "http://placekitten.com/300/200",
+        phone: "(213) 334-2554",
+        email: "mr.mrwhis@meow.com"
+      }}
     />
     <ContactCard
       name="fluffykins"
